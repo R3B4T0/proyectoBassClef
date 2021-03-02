@@ -1,9 +1,5 @@
-.navbar {
-    background-color: #6BB0BF;
-}
-
-a:hover {
-    color: black;
+a:hover, .nav-link:hover {
+    color: aqua;
 }
 
 a:active {
@@ -12,5 +8,9 @@ a:active {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
+}
+
+.nav-link:hover {
+    color: aqua;
 }

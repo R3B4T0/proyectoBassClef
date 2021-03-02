@@ -10,13 +10,15 @@ import { NavegacionComponent } from './componentes/navegacion/navegacion.compone
 import { HomeComponent } from './componentes/home/home.component';
 import { BandasComponent } from './componentes/bandas/bandas.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ListaBandasComponent } from './componentes/lista-bandas/lista-bandas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavegacionComponent,
     HomeComponent,
-    BandasComponent
+    BandasComponent,
+    ListaBandasComponent
   ],
   imports: [
     BrowserModule,
